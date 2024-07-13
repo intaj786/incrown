@@ -14,7 +14,7 @@ function login() {
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
-    // Simple validation (for demonstration purposes only)
+   
     if (username === "user" && password === "password") {
         alert("Login successful!");
         // Redirect to another page upon successful login
